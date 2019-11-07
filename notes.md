@@ -12,7 +12,7 @@ https://youtu.be/Xop-v18NITk?t=1175
 
 
 A state machine is a system that has a specific state and changes its state
-from one specific state into another specific state based on the variables introduced into the system
+from one specific state into another specific state based on the variables introduced into the system.
 
 Example: traffic lights
 
@@ -287,7 +287,7 @@ loading state.
 
 So inside our action creator we first dispatch the action object,
 then we call axios to kick off a call to our api.
-Axios makes calls asyncronously.
+Axios makes calls asynchronously.
 Based on the result of the api call we are going to do another dispatch.
 
 If we have success, we want to transition to the success state.
